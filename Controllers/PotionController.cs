@@ -63,5 +63,14 @@ namespace SurvivorShop.Controllers
             potionRepository.updatePotion(updatedPotion);
             return NoContent();
         }
+        [HttpDelete("{id}")]
+        public ActionResult DeletePotion(Guid id){
+            var existingPotion = potionRepository.getPotion(id);
+            if(existingPotion is null){
+                return NotFound();
+            }
+            potionRepository.deletePotion(id);
+            return NoContent();
+        }
     }
 }

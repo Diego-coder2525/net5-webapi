@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dNZ/OpMK0PSqGCyNjdcdvqjVhNEWE+tfLIczUJAx4J89HUnc92MHhA0TQ6crXtJzbif4GVvDSWnYtcW/Enaw8g==",
+  "dgSpecHash": "kYl5LiFb6Um5IZs/Vu5pfzg5AAcmlOY8MccqizN5ii65vU5weWuz6RqAOC9fQrWcR4UTncE4VdKzwM4W8y84Iw==",
   "success": true,
-  "projectFilePath": "d:\\Visual Studio Code Workspace\\DOTNET5\\SurvivorShop\\SurvivorShop.csproj",
+  "projectFilePath": "D:\\Visual Studio Code Workspace\\DOTNET5\\SurvivorShop\\SurvivorShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diego\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Diego\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
