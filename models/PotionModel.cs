@@ -4,9 +4,9 @@ namespace SurvivorShop.models
 {
     public record PotionModel
     {
-        private Guid Id { get; init; }
-        private string Name { get; init; }
-        private string Type { get; init; }
-        private int Price { get; init; }
+        public Guid Id { get; init; }
+        public string Name { get; init; }
+        public string Type { get; init; }
+        public int Price { get; init; }
     }
 }

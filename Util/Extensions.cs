@@ -13,5 +13,13 @@ namespace SurvivorShop.Util{
                 Price = armourModel.Price
             };
         }
+        public static PotionDto asPotionDto(this PotionModel potionModel){
+            return new PotionDto(){
+                Id = potionModel.Id,
+                Name = potionModel.Name,
+                Price = potionModel.Price,
+                Type = potionModel.Type
+            };
+        }
     }
 }

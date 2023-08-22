@@ -17,6 +17,7 @@ using MongoDB.Bson.Serialization.Serializers;
 using MongoDB.Driver;
 using SurvivorShop.repository;
 using SurvivorShop.repository.interfaces;
+using SurvivorShop.repository.Potion;
 using SurvivorShop.Settings;
 
 namespace SurvivorShop
@@ -45,7 +46,7 @@ namespace SurvivorShop
                 return new MongoClient(settings.ConnectionString);
             });
             services.AddSingleton<IArmourRepository, MongoDbArmourRepository>();
-
+            services.AddSingleton<IPotionRepository, MongoDbPotionRepository>();
             //
             services.AddControllers();
             services.AddSwaggerGen(c =>
